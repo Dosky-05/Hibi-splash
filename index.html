@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hibi-Splash | Refreshing Zobo Juice</title>
+  <meta name="description"
+    content="Enjoy the yummy rich taste of our fruity Zobo drink. Premium hibiscus juice in various sizes and packs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <a href="#home">
+        <img src="/logo.png" alt="Hibi-Splash Logo" class="logo-img">
+      </a>
+    </div>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Our Drinks</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+      <span class="hamburger"></span>
+    </button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="fade-in">Refresh Your Soul with <span class="accent">Hibi-Splash</span></h1>
+        <p class="tagline">Enjoy the yummy rich taste of our fruity Zobo drink</p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">View Price List</a>
+          <a href="https://wa.me/2348071420591" class="btn btn-secondary">Order on WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="splash-container">
+          <div class="splash-blob"></div>
+          <!-- We'll use CSS/SVG for the splash effect -->
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="section-title">
+        <h2>Our Price List</h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="product-grid">
+        <!-- 250ml Card -->
+        <div class="price-card" id="card-250">
+          <div class="card-header">
+            <h3>250ml Bottles</h3>
+          </div>
+          <div class="pricing-tiers">
+            <div class="tier">
+              <span class="quantity">Single Bottle</span>
+              <span class="price">#1,000</span>
+            </div>
+            <div class="tier best-value">
+              <span class="quantity">6 Bottles</span>
+              <span class="price">#5,500</span>
+            </div>
+            <div class="tier">
+              <span class="quantity">Pack of 12</span>
+              <span class="price">#10,500</span>
+            </div>
+          </div>
+          <a href="https://wa.me/2348071420591?text=Hello!%20I'd%20like%20to%20order%20the%20250ml%20Hibi-Splash%20bottles."
+            class="order-btn">Order 250ml</a>
+        </div>
+
+        <!-- 500ml Card -->
+        <div class="price-card featured" id="card-500">
+          <div class="card-header">
+            <span class="badge">Most Popular</span>
+            <h3>500ml Bottles</h3>
+          </div>
+          <div class="pricing-tiers">
+            <div class="tier">
+              <span class="quantity">Single Bottle</span>
+              <span class="price">#2,000</span>
+            </div>
+            <div class="tier best-value">
+              <span class="quantity">6 Bottles</span>
+              <span class="price">#10,500</span>
+            </div>
+            <div class="tier">
+              <span class="quantity">Pack of 12</span>
+              <span class="price">#20,000</span>
+            </div>
+          </div>
+          <a href="https://wa.me/2348071420591?text=Hello!%20I'd%20like%20to%20order%20the%20500ml%20Hibi-Splash%20bottles."
+            class="order-btn">Order 500ml</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Nature in a Bottle</h2>
+          <div class="underline"></div>
+          <p>At Hibi-Splash, we believe in the power of natural goodness. Our Zobo is brewed with the finest Hibiscus
+            petals, infused with premium fruits and spices to give you that authentic, refreshing taste you love.</p>
+          <ul class="features">
+            <li><i class="fa-solid fa-leaf"></i> 100% Natural Ingredients</li>
+            <li><i class="fa-solid fa-shield-heart"></i> No Artificial Preservatives</li>
+            <li><i class="fa-solid fa-wand-magic-sparkles"></i> Fruity & Rich Flavor</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <div class="fruit-illustration"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="order">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="/logo.png" alt="Hibi-Splash Logo" class="logo-img">
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/hibisplash?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/2348071420591" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Hibi-Splash. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+  <style>
+    /* Quick inline CSS fix before main style update if needed */
+  </style>
+</body>
+
+</html>
