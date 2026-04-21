@@ -36,7 +36,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Navbar */
+/* ─── Navbar — Desktop Glassmorphism ─── */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,14 @@ body {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background: transparent;
+
+  /* ✅ Glassmorphism — less transparent, more visible */
+  background: rgba(209, 121, 162, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 24px rgba(139, 26, 79, 0.15);
+  transition: all 0.3s ease;
 }
 
 .logo-img {
